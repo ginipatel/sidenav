@@ -39,5 +39,6 @@ function ma5mobileMenu(atributes) {
         $('.ma5-menu-panel').removeClass('ma5-active-leave ma5-parent-leave ma5-active-enter ma5-parent-enter');
         $('[data-ma5-order="' + itemParent + '"]').addClass('ma5-parent-leave ma5-active-ul');
         $('[data-ma5-order="' + itemPath + '"]').addClass('ma5-active-leave');
+        console.log(""); 
     });
 }
